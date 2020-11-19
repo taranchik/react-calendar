@@ -20,9 +20,9 @@ git clone https://github.com/taranchik/react-calendar
 cd react-calendar
 ```
 
-3. Run the node script that is listed under start in the package.
+3. Run the following command in order to install required packages and start the application after
 ```
-npm start
+npm install && npm start
 ```
 
 ### Usage
@@ -48,5 +48,12 @@ In order to fetch holidays for the specific country you are able to do the follo
 So that is why the calendar is set to the date 2019-11-19 by default.
 
 ---
+
+## Author Info
+
+- LinkedIn - [Viacheslav Taranushenko](https://www.linkedin.com/in/viacheslav-taranushenko-727466187/)
+- GitHub - [@taranchik](https://github.com/taranchik)
+- GitLab - [@taranchik](https://gitlab.com/taranchik)
+- Twitter - [@viataranushenko](https://twitter.com/viataranushenko)
 
 [Back To The Top](#react-calendar)

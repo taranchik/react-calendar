@@ -14,7 +14,17 @@ class Holidays extends Component {
     constructor(props) {
         super(props);
 
-        this.publicHolidaysHandler()
+        axios.get('https://holidayapi.com/v1/holidays?pretty&key=f53ba17b-5a26-4021-ab5f-2880936cf3cd&country='
+            + this.props.specificCountry.alpha2Code + '&year=2019')
+            .then((response) => {
+                this.props.setCountryHolidays(
+                    response.data.holidays.map(holiday => ({
+                        title: holiday.name,
+                        start: holiday.date,
+                        end: holiday.observed,
+                        public: holiday.public
+                    })))
+            });
     }
 
     publicHolidaysHandler() {
