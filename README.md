@@ -1,8 +1,8 @@
 # React Calendar
 
-![Project Image](https://i.imgur.com/aa9Sano.png)
+![Project Image](https://i.imgur.com/kGnhFvg.png)
 
-> TEONITE Blog stats
+> Calendar of holidays for all countries
 
 ---
 
@@ -15,34 +15,38 @@
 git clone https://github.com/taranchik/react-calendar
 ```
 
-2. Build, create, start, and attach to containers for a service
+2. Change the directory to the directory with the React application
 ```
-docker-compose up
+cd react-calendar
+```
+
+3. Run the node script that is listed under start in the package.
+```
+npm start
 ```
 
 ### Usage
 
-In order to fetch some data you are able to do the following actions:
+You have menu which consist of the Home page and the Holidays page, where you can see holidays of the specific country.
 
-1. Fetch general stats of the TEONITE blog articles (by default it is already selected)
+In order to fetch holidays of the specific country you are able to do the following actions:
 
-![General stats image](https://i.imgur.com/aa9Sano.png)
+1. Select the country from the list
 
-2. Fetch authors of the TEONITE blog articles you have to click at the `Dropdown Menu`
+![List of countries](https://i.imgur.com/kGnhFvg.png)
 
-![Authors list image](https://i.imgur.com/WcEirmv.png)
+2. Scroll the calendar to see all holidays in the specific country
 
-3. To fetch stats of the specific author, you have to select the author from the `Dropdown Menu`
+![Holidays calendar](https://i.imgur.com/AjwY64l.png)
 
-![Author stats Image](https://i.imgur.com/N4g1jwK.png)
+3. You can also select `Show only public holidays` checkbox, than you will see only public holidays
 
-You also able to select multiple authors and fetch general stats
+![Show only public holidays checkbox](https://i.imgur.com/dAdTBFB.png)
 
-![Authors stats Image](https://i.imgur.com/AwNDJ5H.png)
+``WARNING!`` You are able to see all holidays untill the year 2020, because of the reason "Free accounts are limited to last year's historical data only. Upgrade to premium for access to all holiday data. For more information, please visit https:\/\/holidayapi.com\/docs". 
+
+So that is why the calendar is set to the date 2019-11-19 by default.
 
 ---
 
-## References
-[TEONITE Blog](https://teonite.com/blog/)
-
-[Back To The Top](#teonite-frontend-app)
+[Back To The Top](#react-calendar)
