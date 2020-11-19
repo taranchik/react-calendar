@@ -15,7 +15,7 @@
 git clone https://github.com/taranchik/react-calendar
 ```
 
-2. Change the directory to the directory with the React application
+2. Go to the application directory
 ```
 cd react-calendar
 ```
@@ -29,7 +29,7 @@ npm start
 
 You have menu which consist of the Home page and the Holidays page, where you can see holidays of the specific country.
 
-In order to fetch holidays of the specific country you are able to do the following actions:
+In order to fetch holidays for the specific country you are able to do the following actions:
 
 1. Select the country from the list
 
