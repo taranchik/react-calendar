@@ -10,7 +10,7 @@
 
 ### Installation
 
-1. Clone the repositry
+1. Clone the repository
 ```
 git clone https://github.com/taranchik/react-calendar
 ```
